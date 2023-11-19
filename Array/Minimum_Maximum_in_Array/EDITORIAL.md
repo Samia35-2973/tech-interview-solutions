@@ -46,7 +46,7 @@ T(n)  = 3n/2 -2
 Thus, the approach does 3n/2 -2 comparisons if n is a power of 2. And it does more than 3n/2 -2 comparisons if n is not a power of 2.
 ```
 
-### Pairwise Comparison Method
+### 4. Pairwise Comparison Method
 Finds the minimum and maximum values in an array by comparing elements in pairs. The initial handling accounts for the possibility of having an odd or even number of elements. The loop then processes the remaining elements in pairs, updating the minimum and maximum values.
 **Total Number of Comparisons**
 - For Odd, The total number of iterations (comparisons) is (n−1)/2, as the last element is not involved in a pair.
